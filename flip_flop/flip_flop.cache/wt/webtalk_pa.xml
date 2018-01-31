@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Wed Jan 31 19:45:10 2018">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="364bc0a3b63c44239deece2662a785ad" type="ProjectID"/>
+<property name="ProjectIteration" value="1" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="1" type="JavaHandler"/>
+<property name="EditDelete" value="1" type="JavaHandler"/>
+<property name="NewProject" value="1" type="JavaHandler"/>
+<property name="RunSchematic" value="2" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="FINISH, Finish" value="2" type="GuiResourceData"/>
+<property name="NEXT, Next " value="8" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CmdMsgDialog_MESSAGES, [Synth 8-285] failed synthesizing module 'bit_flipflop' [C:/Users/solderneer/flip_flop/flip_flop.srcs/sources_1/new/flipflop.v:39], 1" value="2" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CmdMsgDialog_OK, OK" value="6" type="GuiResourceData"/>
+<property name="PAResourceAtoD.ConstraintsChooserPanel_ADD_EXISTING_OR_CREATE_NEW_CONSTRAINTS, Add" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.ConstraintsChooserPanel_CREATE_FILE, Create File..." value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateConstraintsFilePanel_FILE_NAME, constraints" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, eightbit_flipflop" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, flipflop" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS,  ; input ; false ; 0 ; 0, 0, (String" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS,  ; input ; false ; 0 ; 0, 2, (String" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, !Q ; input ; false ; 0 ; 0, 3, input, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, !Q, 3, Port Name, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, Q ; input ; false ; 0 ; 0, 2, input, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, Q, 2, Port Name, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, RESET, 1, Port Name, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, SET, 0, Port Name, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, output, 2, Direction, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, output, 3, Direction, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_ENTITY_NAME, flipflop" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints, constrs_1, constraints.xdc], 4, false" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints, constrs_1, constraints.xdc], 4, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints, constrs_1], 3, true" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints], 2" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Syntax Error Files], 1, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, bit_flipflop (flipflop.v" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, eightbit_flipflop (eightbit_flipflop.v" value="4" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager, Add Sources], 2, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, RTL Analysis, Elaborated Design, Schematic], 18, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, RTL Analysis, Open Elaborated Design, Schematic], 17, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, RTL Analysis, Open Elaborated Design], 14" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_CREATE_NEW_PROJECT, Create New Project" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_TOOLS, Tools" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_WINDOW, Window" value="4" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sim_1, [HDL 9-2216] Analyzing Verilog file C:/Users/solderneer/flip_flop/flip_flop.srcs/sources_1/new/flipflop.v into library work [C:/Users/solderneer/flip_flop/flip_flop.srcs/sources_1/new/flipflop.v:1]. ], 10, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sim_1, [HDL 9-806] Syntax error near strong1. [C:/Users/solderneer/flip_flop/flip_flop.srcs/sources_1/new/flipflop.v:33]. ], 11, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PAViews_CODE, Code" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PAViews_SCHEMATIC, Schematic" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PartChooser_FAMILY_CHOOSER, Artix-7, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PartChooser_PARTS, xc7a35tcpg236-1 ; 236 ; 50 ; 90 ; 41600 ; 2 ; 2 ; 106 ; 20800 ; 5 ; 1 ; 85 ; 0 ; 85 ; C ; 1.05 ; 0.95 ; 0.95, 1, xc7a35tcpg236-1, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PartChooser_PART_PACKAGE_CHOOSER, cpg236, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PartChooser_PART_SPEED_CHOOSER, -1, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, flip_flop" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectTab_RELOAD, Reload" value="8" type="GuiResourceData"/>
+<property name="PAResourceQtoS.RemoveSourcesDialog_ALSO_DELETE, Also delete the project local file/directory from disk, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcChooserPanel_ADD_OR_CREATE_SOURCE_FILE, Add" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcChooserPanel_CREATE_FILE, Create File" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcChooserPanel_CREATE_FILE, Create File..." value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="7" type="GuiResourceData"/>
+<property name="RDIResourceCommand.RDICommands_COPY, Copy" value="1" type="GuiResourceData"/>
+<property name="RDIResourceCommand.RDICommands_DELETE, Remove File from Project..." value="1" type="GuiResourceData"/>
+<property name="constraints.xdc, 176, 30" value="1" type="GuiResourceData"/>
+<property name="constraints.xdc, 190, 174" value="1" type="GuiResourceData"/>
+<property name="constraints.xdc, 305, 23" value="1" type="GuiResourceData"/>
+<property name="constraints.xdc, 314, 363" value="1" type="GuiResourceData"/>
+<property name="constraints.xdc, 324, 21" value="1" type="GuiResourceData"/>
+<property name="constraints.xdc, 470, 207" value="1" type="GuiResourceData"/>
+<property name="eightbit_flipflop.v, 48, 146" value="1" type="GuiResourceData"/>
+<property name="eightbit_flipflop.v, 72, 60" value="1" type="GuiResourceData"/>
+<property name="eightbit_flipflop.v, 82, 362" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 103, 376" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 104, 366" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 105, 397" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 110, 183" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 111, 245" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 115, 370" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 115, 381" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 116, 182" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 116, 275" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 117, 385" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 118, 351" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 120, 334" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 121, 192" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 124, 375" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 126, 228" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 129, 405" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 132, 280" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 133, 300" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 136, 362" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 151, 387" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 154, 281" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 160, 337" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 180, 401" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 186, 407" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 221, 216" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 222, 384" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 231, 380" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 240, 383" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 268, 398" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 27, 315" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 272, 341" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 280, 362" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 280, 390" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 284, 382" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 285, 388, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 295, 360" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 297, 399" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 32, 67, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 351, 417" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 48, 262" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 50, 372" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 52, 367" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 54, 280" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 54, 297" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 56, 175" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 65, 383" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 73, 256" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 81, 371" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 82, 386" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 84, 385" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 85, 17" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 87, 401" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 92, 181" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 93, 387" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 94, 398" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 95, 398" value="1" type="GuiResourceData"/>
+<property name="flipflop.v, 97, 295" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="5" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="3" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>
