@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Jan 31 15:18:17 2018
+# Process ID: 8136
+# Current directory: C:/Users/solderneer/mux_test/mux_test.runs/synth_1
+# Command line: vivado.exe -log mux_test.vds -mode batch -messageDb vivado.pb -notrace -source mux_test.tcl
+# Log file: C:/Users/solderneer/mux_test/mux_test.runs/synth_1/mux_test.vds
+# Journal file: C:/Users/solderneer/mux_test/mux_test.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source mux_test.tcl -notrace
