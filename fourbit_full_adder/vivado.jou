@@ -45,3 +45,18 @@ add_files Z:/Documents/Projects/EE2026_labs/fourbit_subtractor/fourbit_subtracto
 update_compile_order -fileset sources_1
 update_compile_order -fileset sources_1
 update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+synth_design -rtl -name rtl_1
+refresh_design
+refresh_design
+launch_simulation
+launch_simulation
+update_compile_order -fileset sources_1
+refresh_design
+update_compile_order -fileset sources_1
+refresh_design
+launch_simulation
+source simulation.tcl
+close_sim
+launch_simulation
+source simulation.tcl

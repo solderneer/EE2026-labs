@@ -28,9 +28,12 @@ module fourbit_subtractor(
     );
     
     wire [3:0] intermediate;
-    reg zero_flag;
+    wire not_neg_flag;
+    wire zero_flag;
     
-    twos_complement(B, intermediate, zero_flag);
-    fourbit_full_adder(A, intermediate, 1'b0, S, (~neg_flag));
+    twos_complement C1 (B, intermediate, zero_flag);
+    fourbit_full_adder A1 (A, intermediate, 1'b0, S, not_neg_flag);
+    
+    assign neg_flag = ~(not_neg_flag);
     
 endmodule
