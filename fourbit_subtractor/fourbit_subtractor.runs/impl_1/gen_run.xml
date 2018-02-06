@@ -70,6 +70,8 @@
     </File>
     <File Path="$PSRCDIR/sources_1/new/fourbit_full_adder.v">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../fourbit_full_adder/fourbit_full_adder.srcs/sources_1/new/fourbit_full_adder.v"/>
+        <Attr Name="ImportTime" Val="1517889557"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
