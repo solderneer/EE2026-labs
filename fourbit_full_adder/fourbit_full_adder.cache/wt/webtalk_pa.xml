@@ -3,10 +3,10 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Tue Feb 06 12:30:02 2018">
+<application name="pa" timeStamp="Tue Feb 06 16:20:22 2018">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="13e76d8c75bd456ea4b41557fd860c59" type="ProjectID"/>
-<property name="ProjectIteration" value="1" type="ProjectIteration"/>
+<property name="ProjectIteration" value="3" type="ProjectIteration"/>
 </section>
 <section name="PlanAhead Usage" visible="true">
 <item name="Project Data">
@@ -21,7 +21,10 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="EditDelete" value="1" type="JavaHandler"/>
 <property name="NewProject" value="1" type="JavaHandler"/>
 <property name="ProjectSettingsCmdHandler" value="1" type="JavaHandler"/>
+<property name="RunBitgen" value="1" type="JavaHandler"/>
+<property name="RunImplementation" value="1" type="JavaHandler"/>
 <property name="RunSchematic" value="2" type="JavaHandler"/>
+<property name="RunSynthesis" value="2" type="JavaHandler"/>
 <property name="SaveFileProxyHandler" value="1" type="JavaHandler"/>
 <property name="SaveProjectAs" value="1" type="JavaHandler"/>
 <property name="SimulationClose" value="2" type="JavaHandler"/>
@@ -30,177 +33,6 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="WaveformSaveConfiguration" value="1" type="JavaHandler"/>
 <property name="ZoomFit" value="6" type="JavaHandler"/>
 <property name="ZoomIn" value="7" type="JavaHandler"/>
-</item>
-<item name="Gui Resources Info">
-<property name="CANCEL, Cancel" value="2" type="GuiResourceData"/>
-<property name="FINISH, Finish" value="3" type="GuiResourceData"/>
-<property name="Implementation, Implementation" value="1" type="GuiResourceData"/>
-<property name="NEXT, Next " value="4" type="GuiResourceData"/>
-<property name="PAResourceAtoD.AddSrcWizard_SPECIFY_SIMULATION_SPECIFIC_HDL_FILES, Add or create simulation sources" value="1" type="GuiResourceData"/>
-<property name="PAResourceAtoD.CmdMsgDialog_OK, OK" value="8" type="GuiResourceData"/>
-<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, fourbit_full_adder" value="3" type="GuiResourceData"/>
-<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, simulation" value="1" type="GuiResourceData"/>
-<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS,  ; input ; false ; 0 ; 0, 0, (String" value="3" type="GuiResourceData"/>
-<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS,  ; input ; false ; 0 ; 0, 1, (String" value="1" type="GuiResourceData"/>
-<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS,  ; input ; false ; 0 ; 0, 3, (String" value="1" type="GuiResourceData"/>
-<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, 2, 0, MSB, 3" value="1" type="GuiResourceData"/>
-<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, 3, 0, MSB, 3" value="1" type="GuiResourceData"/>
-<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, 3, 1, MSB, 3" value="1" type="GuiResourceData"/>
-<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, 3, 3, MSB, 3" value="1" type="GuiResourceData"/>
-<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, A ; input ; false ; 0 ; 0, 0, false, 2" value="1" type="GuiResourceData"/>
-<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, A ; input ; true ; 0 ; 0, 0, 0, 3" value="1" type="GuiResourceData"/>
-<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, A ; input ; true ; 2 ; 0, 0, 2, 3" value="1" type="GuiResourceData"/>
-<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, A, 0, Port Name, 0" value="1" type="GuiResourceData"/>
-<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, B ; input ; false ; 0 ; 0, 1, false, 2" value="1" type="GuiResourceData"/>
-<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, B ; input ; true ; 0 ; 0, 1, 0, 3" value="1" type="GuiResourceData"/>
-<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, B, 1, Port Name, 0" value="1" type="GuiResourceData"/>
-<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, CIN, 2, Port Name, 0" value="1" type="GuiResourceData"/>
-<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, COUT ; input ; false ; 0 ; 0, 4, input, 1" value="1" type="GuiResourceData"/>
-<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, COUT, 4, Port Name, 0" value="1" type="GuiResourceData"/>
-<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, S ; input ; false ; 0 ; 0, 3, false, 2" value="1" type="GuiResourceData"/>
-<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, S ; input ; true ; 0 ; 0, 3, 0, 3" value="1" type="GuiResourceData"/>
-<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, S ; input ; true ; 3 ; 0, 3, input, 1" value="1" type="GuiResourceData"/>
-<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, S, 3, Port Name, 0" value="1" type="GuiResourceData"/>
-<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, output, 3, Direction, 1" value="1" type="GuiResourceData"/>
-<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, output, 4, Direction, 1" value="1" type="GuiResourceData"/>
-<property name="PAResourceCommand.PACommandNames_ADD_SOURCES, Add Sources..." value="1" type="GuiResourceData"/>
-<property name="PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update" value="7" type="GuiResourceData"/>
-<property name="PAResourceCommand.PACommandNames_SAVE_PROJECT_AS, Save Project As..." value="1" type="GuiResourceData"/>
-<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, Run Behavioral Simulation" value="11" type="GuiResourceData"/>
-<property name="PAResourceCommand.PACommandNames_ZOOM_IN, Zoom In" value="2" type="GuiResourceData"/>
-<property name="PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, URAM, 12" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Non-module Files, fourbit_full_adder.v], 2, false" value="4" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Non-module Files, fourbit_full_adder.v], 2, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Non-module Files, fourbit_full_adder.v], 2, false, false, false, false, true, false" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Non-module Files], 1" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, fourbit_full_adder (fourbit_full_adder.v" value="6" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, onebit_full_adder (onebit_full_adder.v" value="6" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources], 0, true" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Syntax Error Files, simulation.v], 10, false" value="6" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Syntax Error Files, simulation.v], 10, false, false, false, false, false, true" value="3" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Syntax Error Files, simulation.v], 10, false, false, false, false, true, false" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Syntax Error Files], 9" value="2" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Syntax Error Files], 9, true" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Syntax Error Files], 9, true, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, simulation (simulation.v" value="4" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 8" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 7" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager, Add Sources], 2, false" value="3" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, RTL Analysis, Elaborated Design, Schematic], 18, false" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, RTL Analysis, Elaborated Design], 14, true" value="2" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, RTL Analysis, Open Elaborated Design], 14, true" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Run Simulation], 11, false" value="11" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Simulation Settings], 10, false" value="1" type="GuiResourceData"/>
-<property name="PAResourceItoN.MainMenuMgr_FILE, File" value="4" type="GuiResourceData"/>
-<property name="PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, Open Recent File" value="1" type="GuiResourceData"/>
-<property name="PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, Open Recent Project" value="2" type="GuiResourceData"/>
-<property name="PAResourceItoN.MainMenuMgr_VIEW, View" value="4" type="GuiResourceData"/>
-<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, rtl_1, launch_simulation. , [USF-XSim 62] 'compile' step failed with error(s" value="5" type="GuiResourceData"/>
-<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, rtl_1, launch_simulation. , [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.. ], 3, false" value="1" type="GuiResourceData"/>
-<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, rtl_1, launch_simulation. , [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.. ], 30, false" value="1" type="GuiResourceData"/>
-<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, rtl_1, launch_simulation. , [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.. ], 30, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String" value="2" type="GuiResourceData"/>
-<property name="PAResourceOtoP.PAViews_CODE, Code" value="1" type="GuiResourceData"/>
-<property name="PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, fourbit_full_adder" value="1" type="GuiResourceData"/>
-<property name="PAResourceQtoS.RemoveSourcesDialog_ALSO_DELETE, Also delete the project local file/directory from disk, true" value="1" type="GuiResourceData"/>
-<property name="PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, A[3:0] ; f ; Array, 2, A[3:0], 0, true" value="1" type="GuiResourceData"/>
-<property name="PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, B[3:0] ; f ; Array, 7, B[3:0], 0, true" value="1" type="GuiResourceData"/>
-<property name="PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, S[3:0] ; X ; Array, 0, S[3:0], 0, true" value="1" type="GuiResourceData"/>
-<property name="PAResourceQtoS.SrcChooserPanel_ADD_OR_CREATE_SOURCE_FILE, Add" value="1" type="GuiResourceData"/>
-<property name="PAResourceQtoS.SrcChooserPanel_CREATE_FILE, Create File" value="3" type="GuiResourceData"/>
-<property name="PAResourceQtoS.SrcChooserPanel_CREATE_FILE, Create File..." value="1" type="GuiResourceData"/>
-<property name="PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy" value="6" type="GuiResourceData"/>
-<property name="RDIResource.BaseDialog_CANCEL, Cancel" value="1" type="GuiResourceData"/>
-<property name="RDIResource.BaseDialog_OK, OK" value="11" type="GuiResourceData"/>
-<property name="RDIResource.MainWinMenuMgr_LAYOUT, Layout" value="2" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 10, -58" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 106, 555" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 124, -23" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 124, -33" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 132, 42" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 136, -30" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 14, -40, false, false, false, true, false" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 14, -78" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 147, -66" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 151, -64" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 155, -41" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 17, 10" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 19, 12" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 212, -56" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 24, -30" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 25, -18" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 27, -76" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 292, 284" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 3, -37" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 36, 20" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 43, -38" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 43, 0" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 44, -23" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 45, -46" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 47, -58" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 51, -64" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 7, -69" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 7, -76" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 73, 19" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 78, 352" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 8, -14" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 8, -62" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 87, -76" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 90, 292" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, Untitled 1" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, Untitled 3" value="1" type="GuiResourceData"/>
-<property name="RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 305, 36" value="1" type="GuiResourceData"/>
-<property name="RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 468, 107" value="1" type="GuiResourceData"/>
-<property name="RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 514, 120" value="1" type="GuiResourceData"/>
-<property name="RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 660, 109" value="1" type="GuiResourceData"/>
-<property name="RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 700, 151" value="1" type="GuiResourceData"/>
-<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, A[3:0]], 6" value="4" type="GuiResourceData"/>
-<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, B[3:0]], 11" value="2" type="GuiResourceData"/>
-<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, B[3:0]], 7" value="2" type="GuiResourceData"/>
-<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, S[3:0]], 0" value="3" type="GuiResourceData"/>
-<property name="RDIResourceCommand.RDICommands_DELETE, Remove File from Project..." value="1" type="GuiResourceData"/>
-<property name="fourbit_full_adder.v, 237, 381" value="1" type="GuiResourceData"/>
-<property name="fourbit_full_adder.v, 43, 32" value="1" type="GuiResourceData"/>
-<property name="fourbit_full_adder.v, 642, 304" value="1" type="GuiResourceData"/>
-<property name="fourbit_full_adder.v, 718, 397" value="1" type="GuiResourceData"/>
-<property name="fourbit_full_adder.v, 90, 380" value="1" type="GuiResourceData"/>
-<property name="simulation.v, 101, 227" value="1" type="GuiResourceData"/>
-<property name="simulation.v, 129, 299" value="1" type="GuiResourceData"/>
-<property name="simulation.v, 148, 369" value="1" type="GuiResourceData"/>
-<property name="simulation.v, 153, 254" value="1" type="GuiResourceData"/>
-<property name="simulation.v, 154, 297" value="1" type="GuiResourceData"/>
-<property name="simulation.v, 168, 182" value="1" type="GuiResourceData"/>
-<property name="simulation.v, 191, 269" value="1" type="GuiResourceData"/>
-<property name="simulation.v, 195, 397" value="1" type="GuiResourceData"/>
-<property name="simulation.v, 198, 274" value="1" type="GuiResourceData"/>
-<property name="simulation.v, 205, 309" value="1" type="GuiResourceData"/>
-<property name="simulation.v, 222, 283" value="1" type="GuiResourceData"/>
-<property name="simulation.v, 227, 260" value="1" type="GuiResourceData"/>
-<property name="simulation.v, 231, 314" value="1" type="GuiResourceData"/>
-<property name="simulation.v, 233, 260" value="1" type="GuiResourceData"/>
-<property name="simulation.v, 235, 224" value="1" type="GuiResourceData"/>
-<property name="simulation.v, 239, 261" value="1" type="GuiResourceData"/>
-<property name="simulation.v, 242, 252" value="1" type="GuiResourceData"/>
-<property name="simulation.v, 242, 257" value="1" type="GuiResourceData"/>
-<property name="simulation.v, 247, 288" value="1" type="GuiResourceData"/>
-<property name="simulation.v, 253, 339" value="1" type="GuiResourceData"/>
-<property name="simulation.v, 255, 310" value="1" type="GuiResourceData"/>
-<property name="simulation.v, 276, 255" value="1" type="GuiResourceData"/>
-<property name="simulation.v, 307, 310" value="1" type="GuiResourceData"/>
-<property name="simulation.v, 322, 372" value="1" type="GuiResourceData"/>
-<property name="simulation.v, 344, 309" value="1" type="GuiResourceData"/>
-<property name="simulation.v, 368, 395" value="1" type="GuiResourceData"/>
-<property name="simulation.v, 411, 412" value="1" type="GuiResourceData"/>
-<property name="simulation.v, 447, 412" value="1" type="GuiResourceData"/>
-<property name="simulation.v, 61, 212" value="1" type="GuiResourceData"/>
-<property name="simulation.v, 67, 212" value="1" type="GuiResourceData"/>
-<property name="simulation.v, 671, 382" value="1" type="GuiResourceData"/>
-<property name="simulation.v, 92, 402" value="1" type="GuiResourceData"/>
-</item>
-<item name="Other">
-<property name="GuiMode" value="7" type="GuiMode"/>
-<property name="BatchMode" value="0" type="BatchMode"/>
-<property name="TclMode" value="5" type="TclMode"/>
 </item>
 </section>
 </application>
