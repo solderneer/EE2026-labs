@@ -10,12 +10,12 @@
     <Option Name="Part" Val="xc7a35tcpg236-1"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>
-    <Option Name="CompiledLibDirModelSim" Val="Z:/Documents/Projects/EE2026_labs/fourbit_subtractor/fourbit_subtractor.cache/compile_simlib/modelsim"/>
-    <Option Name="CompiledLibDirQuesta" Val="Z:/Documents/Projects/EE2026_labs/fourbit_subtractor/fourbit_subtractor.cache/compile_simlib/questa"/>
-    <Option Name="CompiledLibDirIES" Val="Z:/Documents/Projects/EE2026_labs/fourbit_subtractor/fourbit_subtractor.cache/compile_simlib/ies"/>
-    <Option Name="CompiledLibDirVCS" Val="Z:/Documents/Projects/EE2026_labs/fourbit_subtractor/fourbit_subtractor.cache/compile_simlib/vcs"/>
-    <Option Name="CompiledLibDirRiviera" Val="Z:/Documents/Projects/EE2026_labs/fourbit_subtractor/fourbit_subtractor.cache/compile_simlib/riviera"/>
-    <Option Name="CompiledLibDirActivehdl" Val="Z:/Documents/Projects/EE2026_labs/fourbit_subtractor/fourbit_subtractor.cache/compile_simlib/activehdl"/>
+    <Option Name="CompiledLibDirModelSim" Val="$PCACHEDIR/compile_simlib/modelsim"/>
+    <Option Name="CompiledLibDirQuesta" Val="$PCACHEDIR/compile_simlib/questa"/>
+    <Option Name="CompiledLibDirIES" Val="$PCACHEDIR/compile_simlib/ies"/>
+    <Option Name="CompiledLibDirVCS" Val="$PCACHEDIR/compile_simlib/vcs"/>
+    <Option Name="CompiledLibDirRiviera" Val="$PCACHEDIR/compile_simlib/riviera"/>
+    <Option Name="CompiledLibDirActivehdl" Val="$PCACHEDIR/compile_simlib/activehdl"/>
     <Option Name="BoardPart" Val=""/>
     <Option Name="ActiveSimSet" Val="sim_1"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
@@ -74,9 +74,23 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+      <File Path="$PSRCDIR/sources_1/new/reverse_twos_complement.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/full_fourbit_subtractor.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="fourbit_subtractor"/>
+        <Option Name="TopModule" Val="full_fourbit_subtractor"/>
         <Option Name="TopAutoSet" Val="TRUE"/>
       </Config>
     </FileSet>

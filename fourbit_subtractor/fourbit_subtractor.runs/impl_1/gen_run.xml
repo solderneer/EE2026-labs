@@ -1,61 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1517905029">
-  <File Type="ROUTE-STATUS-PB" Name="fourbit_full_adder_route_status.pb"/>
-  <File Type="PA-TCL" Name="fourbit_full_adder.tcl"/>
-  <File Type="OPT-DCP" Name="fourbit_full_adder_opt.dcp"/>
-  <File Type="INIT-TIMING" Name="fourbit_full_adder_timing_summary_init.rpt"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="fourbit_full_adder_methodology_drc_opted.rpt"/>
-  <File Type="RDI-RDI" Name="fourbit_full_adder.vdi"/>
-  <File Type="PWROPT-DRC" Name="fourbit_full_adder_drc_pwropted.rpt"/>
-  <File Type="OPT-DRC" Name="fourbit_full_adder_drc_opted.rpt"/>
-  <File Type="PWROPT-DCP" Name="fourbit_full_adder_pwropt.dcp"/>
-  <File Type="OPT-HWDEF" Name="fourbit_full_adder.hwdef"/>
-  <File Type="OPT-TIMING" Name="fourbit_full_adder_timing_summary_opted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="fourbit_full_adder_timing_summary_pwropted.rpt"/>
-  <File Type="PLACE-DCP" Name="fourbit_full_adder_placed.dcp"/>
-  <File Type="PLACE-IO" Name="fourbit_full_adder_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="fourbit_full_adder_clock_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL" Name="fourbit_full_adder_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="fourbit_full_adder_utilization_placed.pb"/>
-  <File Type="PLACE-CTRL" Name="fourbit_full_adder_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="fourbit_full_adder_incremental_reuse_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="fourbit_full_adder_incremental_reuse_pre_placed.rpt"/>
-  <File Type="PLACE-TIMING" Name="fourbit_full_adder_timing_summary_placed.rpt"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="fourbit_full_adder_postplace_pwropt.dcp"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="fourbit_full_adder_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="fourbit_full_adder_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="fourbit_full_adder_drc_physopted.rpt"/>
-  <File Type="PHYSOPT-TIMING" Name="fourbit_full_adder_timing_summary_physopted.rpt"/>
-  <File Type="ROUTE-DCP" Name="fourbit_full_adder_routed.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="fourbit_full_adder_routed_bb.dcp"/>
-  <File Type="ROUTE-DRC" Name="fourbit_full_adder_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-PB" Name="fourbit_full_adder_drc_routed.pb"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="fourbit_full_adder_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="fourbit_full_adder_methodology_drc_routed.pb"/>
-  <File Type="BG-BIT" Name="fourbit_full_adder.bit"/>
-  <File Type="ROUTE-PWR" Name="fourbit_full_adder_power_routed.rpt"/>
-  <File Type="ROUTE-PWR-SUM" Name="fourbit_full_adder_power_summary_routed.pb"/>
-  <File Type="ROUTE-PWR-RPX" Name="fourbit_full_adder_power_routed.rpx"/>
-  <File Type="ROUTE-STATUS" Name="fourbit_full_adder_route_status.rpt"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="fourbit_full_adder_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-TIMING-PB" Name="fourbit_full_adder_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="fourbit_full_adder_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="fourbit_full_adder_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="fourbit_full_adder_clock_utilization_routed.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="fourbit_full_adder_postroute_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="fourbit_full_adder_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="fourbit_full_adder_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="fourbit_full_adder_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="fourbit_full_adder_timing_summary_postroute_physopted.rpx"/>
-  <File Type="BG-BIN" Name="fourbit_full_adder.bin"/>
-  <File Type="BITSTR-MSK" Name="fourbit_full_adder.msk"/>
-  <File Type="BITSTR-RBT" Name="fourbit_full_adder.rbt"/>
-  <File Type="BITSTR-NKY" Name="fourbit_full_adder.nky"/>
-  <File Type="BITSTR-BMM" Name="fourbit_full_adder_bd.bmm"/>
-  <File Type="BITSTR-MMI" Name="fourbit_full_adder.mmi"/>
-  <File Type="BITSTR-SYSDEF" Name="fourbit_full_adder.sysdef"/>
-  <File Type="BG-BGN" Name="fourbit_full_adder.bgn"/>
-  <File Type="BG-DRC" Name="fourbit_full_adder.drc"/>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1517920878">
+  <File Type="OPT-DCP" Name="full_fourbit_subtractor_opt.dcp"/>
+  <File Type="ROUTE-STATUS-PB" Name="full_fourbit_subtractor_route_status.pb"/>
+  <File Type="PA-TCL" Name="full_fourbit_subtractor.tcl"/>
+  <File Type="RDI-RDI" Name="full_fourbit_subtractor.vdi"/>
+  <File Type="PWROPT-DRC" Name="full_fourbit_subtractor_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="full_fourbit_subtractor_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="full_fourbit_subtractor_timing_summary_init.rpt"/>
+  <File Type="OPT-DRC" Name="full_fourbit_subtractor_drc_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="full_fourbit_subtractor_pwropt.dcp"/>
+  <File Type="OPT-HWDEF" Name="full_fourbit_subtractor.hwdef"/>
+  <File Type="OPT-TIMING" Name="full_fourbit_subtractor_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="full_fourbit_subtractor_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="full_fourbit_subtractor_placed.dcp"/>
+  <File Type="PLACE-IO" Name="full_fourbit_subtractor_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="full_fourbit_subtractor_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="full_fourbit_subtractor_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="full_fourbit_subtractor_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="full_fourbit_subtractor_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="full_fourbit_subtractor_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="full_fourbit_subtractor_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="full_fourbit_subtractor_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="full_fourbit_subtractor_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="full_fourbit_subtractor_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="full_fourbit_subtractor_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="full_fourbit_subtractor_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="full_fourbit_subtractor_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-DCP" Name="full_fourbit_subtractor_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="full_fourbit_subtractor_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="full_fourbit_subtractor_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="full_fourbit_subtractor_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="full_fourbit_subtractor_methodology_drc_routed.rpt"/>
+  <File Type="BG-BIT" Name="full_fourbit_subtractor.bit"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="full_fourbit_subtractor_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="full_fourbit_subtractor_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="full_fourbit_subtractor_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="full_fourbit_subtractor_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="full_fourbit_subtractor_route_status.rpt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="full_fourbit_subtractor_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="full_fourbit_subtractor_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="full_fourbit_subtractor_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="full_fourbit_subtractor_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="full_fourbit_subtractor_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="full_fourbit_subtractor_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="full_fourbit_subtractor_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="full_fourbit_subtractor_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="full_fourbit_subtractor_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="full_fourbit_subtractor_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIN" Name="full_fourbit_subtractor.bin"/>
+  <File Type="BITSTR-MSK" Name="full_fourbit_subtractor.msk"/>
+  <File Type="BITSTR-RBT" Name="full_fourbit_subtractor.rbt"/>
+  <File Type="BITSTR-NKY" Name="full_fourbit_subtractor.nky"/>
+  <File Type="BITSTR-BMM" Name="full_fourbit_subtractor_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="full_fourbit_subtractor.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="full_fourbit_subtractor.sysdef"/>
+  <File Type="BG-BGN" Name="full_fourbit_subtractor.bgn"/>
+  <File Type="BG-DRC" Name="full_fourbit_subtractor.drc"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
@@ -77,9 +77,37 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/sources_1/new/twos_complement.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fourbit_subtractor.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/reverse_twos_complement.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/full_fourbit_subtractor.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="fourbit_full_adder"/>
+      <Option Name="TopModule" Val="full_fourbit_subtractor"/>
       <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>
   </FileSet>

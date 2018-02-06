@@ -23,9 +23,9 @@ eval( EAInclude(ISEJScriptLib) );
 
 
 // pre-commands:
-ISETouchFile( "write_bitstream", "begin" );
+ISETouchFile( "init_design", "begin" );
 ISEStep( "vivado",
-         "-log fourbit_full_adder.vdi -applog -m64 -messageDb vivado.pb -mode batch -source fourbit_full_adder.tcl -notrace" );
+         "-log full_fourbit_subtractor.vdi -applog -m64 -messageDb vivado.pb -mode batch -source full_fourbit_subtractor.tcl -notrace" );
 
 
 

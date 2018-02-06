@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='Z:/Documents/Projects/EE2026_labs/fourbit_full_adder/fourbit_full_adder.runs/synth_1'
+HD_PWD='Z:/Documents/Projects/EE2026_labs/fourbit_subtractor/fourbit_subtractor.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log fourbit_full_adder.vds -m64 -mode batch -messageDb vivado.pb -notrace -source fourbit_full_adder.tcl
+EAStep vivado -log full_fourbit_subtractor.vds -m64 -mode batch -messageDb vivado.pb -notrace -source full_fourbit_subtractor.tcl

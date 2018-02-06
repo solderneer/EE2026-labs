@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='Z:/Documents/Projects/EE2026_labs/fourbit_full_adder/fourbit_full_adder.runs/impl_1'
+HD_PWD='Z:/Documents/Projects/EE2026_labs/fourbit_subtractor/fourbit_subtractor.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -41,7 +41,7 @@ EAStep()
 }
 
 # pre-commands:
-/bin/touch .write_bitstream.begin.rst
-EAStep vivado -log fourbit_full_adder.vdi -applog -m64 -messageDb vivado.pb -mode batch -source fourbit_full_adder.tcl -notrace
+/bin/touch .init_design.begin.rst
+EAStep vivado -log full_fourbit_subtractor.vdi -applog -m64 -messageDb vivado.pb -mode batch -source full_fourbit_subtractor.tcl -notrace
 
 

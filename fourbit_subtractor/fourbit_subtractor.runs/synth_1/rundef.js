@@ -23,7 +23,7 @@ eval( EAInclude(ISEJScriptLib) );
 
 
 ISEStep( "vivado",
-         "-log fourbit_full_adder.vds -m64 -mode batch -messageDb vivado.pb -notrace -source fourbit_full_adder.tcl" );
+         "-log full_fourbit_subtractor.vds -m64 -mode batch -messageDb vivado.pb -notrace -source full_fourbit_subtractor.tcl" );
 
 
 

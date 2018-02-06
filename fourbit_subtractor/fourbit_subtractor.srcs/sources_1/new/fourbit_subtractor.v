@@ -34,6 +34,6 @@ module fourbit_subtractor(
     twos_complement C1 (B, intermediate, zero_flag);
     fourbit_full_adder A1 (A, intermediate, 1'b0, S, not_neg_flag);
     
-    assign neg_flag = ~(not_neg_flag);
+    assign neg_flag = (zero_flag == 0) ? (~(not_neg_flag)) : (not_neg_flag);
     
 endmodule

@@ -24,10 +24,6 @@ set_property PACKAGE_PIN R2 [get_ports {B[3]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {B[3]}]
 
 
-set_property PACKAGE_PIN V2 [get_ports {CIN}]
-set_property IOSTANDARD LVCMOS33 [get_ports {CIN}]
-
-
 set_property PACKAGE_PIN U14 [get_ports {S[0]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {S[0]}]
 
@@ -40,5 +36,5 @@ set_property IOSTANDARD LVCMOS33 [get_ports {S[2]}]
 set_property PACKAGE_PIN V3 [get_ports {S[3]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {S[3]}]
 
-set_property PACKAGE_PIN W3 [get_ports {COUT}]
-set_property IOSTANDARD LVCMOS33 [get_ports {COUT}]
+set_property PACKAGE_PIN U3 [get_ports {neg_flag}]
+set_property IOSTANDARD LVCMOS33 [get_ports {neg_flag}]
