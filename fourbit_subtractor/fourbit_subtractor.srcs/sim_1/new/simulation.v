@@ -29,11 +29,12 @@ module simulation(
     
     reg [3:0] A;
     reg [3:0] B;
+    reg A_pos, B_pos;
     
-    fourbit_subtractor dut (A, B, S, neg_flag);
+    full_fourbit_subtractor dut (A, B, A_pos, B_pos, S, overflow_flag, neg_flag);
     
     initial begin
-        A = 4'b0001; B = 4'b0011; #10;
+        A = 4'b1111; B = 4'b0000; A_pos = 0; B_pos = 0; #10;
     end
-    
+
 endmodule

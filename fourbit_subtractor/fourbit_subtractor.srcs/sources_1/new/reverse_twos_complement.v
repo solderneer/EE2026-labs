@@ -28,7 +28,7 @@ module reverse_twos_complement(
     wire dummy;
     wire [3:0] intermediate;
     
-    fourbit_subtractor(IN, 1'b0001, intermediate, dummy);
+    fourbit_subtractor C1(IN, 1'b0001, intermediate, dummy);
     assign OUT = ~intermediate;
     
     
