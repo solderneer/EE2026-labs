@@ -34,7 +34,13 @@ module simulation(
     full_fourbit_subtractor dut (A, B, A_pos, B_pos, S, overflow_flag, neg_flag);
     
     initial begin
-        A = 4'b1111; B = 4'b0011; A_pos = 0; B_pos = 1; #10;
+        A = 4'b0101; B = 4'b0001; A_pos = 0; B_pos = 0; #100;
+        A = 4'b0101; B = 4'b0001; A_pos = 0; B_pos = 1; #100;
+        A = 4'b0101; B = 4'b0001; A_pos = 1; B_pos = 0; #100;
+        A = 4'b0101; B = 4'b0001; A_pos = 1; B_pos = 1; #100;
+        
+        A = 4'b0111; B = 4'b0111; A_pos = 1; B_pos = 0; #100;
+        A = 4'b0111; B = 4'b0111; A_pos = 0; B_pos = 1; #100;
     end
 
 endmodule
