@@ -1,7 +1,7 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
-| Date         : Tue Feb 06 20:41:54 2018
+| Date         : Fri Feb 09 14:04:22 2018
 | Host         : SUDHARSHAN4272 running 64-bit major release  (build 9200)
 | Command      : report_utilization -file full_fourbit_subtractor_utilization_synth.rpt -pb full_fourbit_subtractor_utilization_synth.pb
 | Design       : full_fourbit_subtractor
@@ -30,12 +30,12 @@ Table of Contents
 +-------------------------+------+-------+-----------+-------+
 |        Site Type        | Used | Fixed | Available | Util% |
 +-------------------------+------+-------+-----------+-------+
-| Slice LUTs*             |    9 |     0 |     20800 |  0.04 |
-|   LUT as Logic          |    9 |     0 |     20800 |  0.04 |
+| Slice LUTs*             |   14 |     0 |     20800 |  0.07 |
+|   LUT as Logic          |   14 |     0 |     20800 |  0.07 |
 |   LUT as Memory         |    0 |     0 |      9600 |  0.00 |
-| Slice Registers         |    0 |     0 |     41600 |  0.00 |
+| Slice Registers         |    1 |     0 |     41600 | <0.01 |
 |   Register as Flip Flop |    0 |     0 |     41600 |  0.00 |
-|   Register as Latch     |    0 |     0 |     41600 |  0.00 |
+|   Register as Latch     |    1 |     0 |     41600 | <0.01 |
 | F7 Muxes                |    0 |     0 |     16300 |  0.00 |
 | F8 Muxes                |    0 |     0 |      8150 |  0.00 |
 +-------------------------+------+-------+-----------+-------+
@@ -55,7 +55,7 @@ Table of Contents
 | 0     |            _ |       Reset |            - |
 | 0     |          Yes |           - |            - |
 | 0     |          Yes |           - |          Set |
-| 0     |          Yes |           - |        Reset |
+| 1     |          Yes |           - |        Reset |
 | 0     |          Yes |         Set |            - |
 | 0     |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
@@ -90,7 +90,7 @@ Table of Contents
 +-----------------------------+------+-------+-----------+-------+
 |          Site Type          | Used | Fixed | Available | Util% |
 +-----------------------------+------+-------+-----------+-------+
-| Bonded IOB                  |   13 |     0 |       106 | 12.26 |
+| Bonded IOB                  |   16 |     0 |       106 | 15.09 |
 | Bonded IPADs                |    0 |     0 |        10 |  0.00 |
 | Bonded OPADs                |    0 |     0 |         4 |  0.00 |
 | PHY_CONTROL                 |    0 |     0 |         5 |  0.00 |
@@ -149,12 +149,14 @@ Table of Contents
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| IBUF     |    8 |                  IO |
-| LUT6     |    6 |                 LUT |
-| OBUF     |    5 |                  IO |
-| LUT4     |    2 |                 LUT |
-| LUT2     |    2 |                 LUT |
+| IBUF     |   10 |                  IO |
+| LUT6     |    7 |                 LUT |
+| OBUF     |    6 |                  IO |
+| LUT4     |    4 |                 LUT |
+| LUT5     |    3 |                 LUT |
+| LUT2     |    3 |                 LUT |
 | LUT3     |    1 |                 LUT |
+| LDCE     |    1 |        Flop & Latch |
 +----------+------+---------------------+
 
 

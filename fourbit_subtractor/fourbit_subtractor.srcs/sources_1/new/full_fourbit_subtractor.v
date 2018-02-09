@@ -41,6 +41,7 @@ module full_fourbit_subtractor(
     wire zero_flag, zero_flag1;
     
     reg neg;
+    reg overflow;
        
     twos_complement C1 (A, i1, zero_flag);
     twos_complement C2 (B, i2, zero_flag1);
@@ -53,12 +54,15 @@ module full_fourbit_subtractor(
     
     assign neg_flag = neg;
     assign S = (neg_flag == 1) ? i6 : i5;
-    assign overflow_flag = (not_neg_flag == 1 && neg_flag == 0) ? 1 : 0;
+    assign overflow_flag = overflow;
     
-    always @(A_pos or B_pos or A or B)
+    always @(A_pos or B_pos or A or B or not_neg_flag or i5)
     begin
         if (A_pos != B_pos)
+            begin
             neg = (A_pos == 0) ? 0 : 1;
+            overflow = (A[3] == i5[3]) ? 0 : 1;
+            end
         else
             if(A_pos == 0)
                 neg = (A >= B) ? 0 : 1;
