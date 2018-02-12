@@ -25,22 +25,21 @@ module simulation(
     );
     
     wire [3:0] S;
-    wire neg_flag;
     
     reg [3:0] A;
     reg [3:0] B;
-    reg A_pos, B_pos;
     
-    full_fourbit_subtractor dut (A, B, A_pos, B_pos, S, overflow_flag, neg_flag);
+    full_fourbit_subtractor dut (A, B, S, overflow_flag);
     
     initial begin
-        A = 4'b0101; B = 4'b0001; A_pos = 0; B_pos = 0; #100;
-        A = 4'b0101; B = 4'b0001; A_pos = 0; B_pos = 1; #100;
-        A = 4'b0101; B = 4'b0001; A_pos = 1; B_pos = 0; #100;
-        A = 4'b0101; B = 4'b0001; A_pos = 1; B_pos = 1; #100;
+        A = 4'b0101; B = 4'b0001; #100;
+        A = 4'b0101; B = 4'b1001; #100;
+        A = 4'b1101; B = 4'b0001; #100;
+        A = 4'b1101; B = 4'b1001; #100;
         
-        A = 4'b0111; B = 4'b0111; A_pos = 1; B_pos = 0; #100;
-        A = 4'b0111; B = 4'b0111; A_pos = 0; B_pos = 1; #100;
+        A = 4'b0111; B = 4'b1111; #100;
+        A = 4'b1111; B = 4'b0111; #100;
+        A = 4'b0000; B = 4'b0000; #100;
     end
 
 endmodule

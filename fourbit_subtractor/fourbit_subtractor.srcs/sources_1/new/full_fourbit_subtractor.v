@@ -23,34 +23,41 @@
 module full_fourbit_subtractor(
     input [3:0] A,
     input [3:0] B,
-    input A_pos,
-    input B_pos,
     output [3:0] S,
-    output overflow_flag,
-    output neg_flag
+    output overflow_flag
     );
     
     wire [3:0] i1; 
     wire [3:0] i2;
-    wire [3:0] i3;
+    wire [3:0] i3; 
     wire [3:0] i4;
     wire [3:0] i5;
     wire [3:0] i6;
+    wire [3:0] i7;
+    wire [3:0] i8;
+    wire [3:0] i9;
     
-    wire not_neg_flag;
+    wire carry;
+    wire neg_flag;
     wire zero_flag, zero_flag1;
-       
-    twos_complement C1 (A, i1, zero_flag);
-    twos_complement C2 (B, i2, zero_flag1);
     
-    assign i3 = (A_pos == 0) ? A : i1;
-    assign i4 = (B_pos == 1) ? B : i2;
+    assign i7 = A & 4'b0111; // Masking out MSB
+    assign i8 = B & 4'b0111;
+       
+    twos_complement C1 (i7, i1, zero_flag);
+    twos_complement C2 (i8, i2, zero_flag1);
+    
+    assign i3 = (A[3] == 0) ? i7 : i1;
+    assign i4 = (B[3] == 1) ? i8 : i2;
     
     fourbit_full_adder A1 (i3, i4, 1'b0, i5, not_neg_flag);
     reverse_twos_complement C3 (i5, i6);
     
     assign neg_flag = (i5[3] == 0) ? 0 : 1;
-    assign S = (neg_flag == 0) ? i5 : i6;
+    
+    assign i9 = (neg_flag == 0) ? i5 : i6;
+    assign S = (neg_flag == 0) ? (i9 & 4'b0111) : (i9 | 4'b1000);
+    
     assign overflow_flag = (i3[3] != i4[3]) ? 0 : ((i3[3] == i5[3]) ? 0 : 1);
     
 endmodule
