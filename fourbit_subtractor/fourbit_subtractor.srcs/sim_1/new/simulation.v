@@ -25,6 +25,7 @@ module simulation(
     );
     
     wire [3:0] S;
+    wire overflow_flag;
     
     reg [3:0] A;
     reg [3:0] B;
