@@ -26,7 +26,7 @@ module flipflop(
     input clk,
     output reg Q
     );
-    
+
     always @(posedge clk)
     begin
         if(RESET == 1'b1)
