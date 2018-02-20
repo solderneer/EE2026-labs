@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1519133906">
+  <File Type="OPT-DCP" Name="ledarray_counter_opt.dcp"/>
+  <File Type="ROUTE-STATUS-PB" Name="ledarray_counter_route_status.pb"/>
+  <File Type="PA-TCL" Name="ledarray_counter.tcl"/>
+  <File Type="RDI-RDI" Name="ledarray_counter.vdi"/>
+  <File Type="PWROPT-DRC" Name="ledarray_counter_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="ledarray_counter_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="ledarray_counter_timing_summary_init.rpt"/>
+  <File Type="OPT-DRC" Name="ledarray_counter_drc_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="ledarray_counter_pwropt.dcp"/>
+  <File Type="OPT-HWDEF" Name="ledarray_counter.hwdef"/>
+  <File Type="OPT-TIMING" Name="ledarray_counter_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="ledarray_counter_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="ledarray_counter_placed.dcp"/>
+  <File Type="PLACE-IO" Name="ledarray_counter_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="ledarray_counter_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="ledarray_counter_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="ledarray_counter_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="ledarray_counter_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="ledarray_counter_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="ledarray_counter_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="ledarray_counter_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="ledarray_counter_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="ledarray_counter_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="ledarray_counter_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="ledarray_counter_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="ledarray_counter_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-DCP" Name="ledarray_counter_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="ledarray_counter_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="ledarray_counter_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="ledarray_counter_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="ledarray_counter_methodology_drc_routed.rpt"/>
+  <File Type="BG-BIT" Name="ledarray_counter.bit"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="ledarray_counter_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="ledarray_counter_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="ledarray_counter_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="ledarray_counter_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="ledarray_counter_route_status.rpt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="ledarray_counter_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="ledarray_counter_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="ledarray_counter_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="ledarray_counter_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="ledarray_counter_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="ledarray_counter_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="ledarray_counter_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="ledarray_counter_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="ledarray_counter_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="ledarray_counter_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIN" Name="ledarray_counter.bin"/>
+  <File Type="BITSTR-MSK" Name="ledarray_counter.msk"/>
+  <File Type="BITSTR-RBT" Name="ledarray_counter.rbt"/>
+  <File Type="BITSTR-NKY" Name="ledarray_counter.nky"/>
+  <File Type="BITSTR-BMM" Name="ledarray_counter_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="ledarray_counter.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="ledarray_counter.sysdef"/>
+  <File Type="BG-BGN" Name="ledarray_counter.bgn"/>
+  <File Type="BG-DRC" Name="ledarray_counter.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/d_flipflop.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/slow_clock.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/debouncer.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ledarray_counter.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="ledarray_counter"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/constraints.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

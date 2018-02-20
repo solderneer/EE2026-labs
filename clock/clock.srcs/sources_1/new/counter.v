@@ -20,7 +20,15 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module counter(
-    input CLOCK
+module led_counter(
+    input CLOCK,
+    output LED
     );
+    
+    reg [3:0] count = 4'b0000;
+    
+    always @(posedge CLOCK) begin
+        count <= count + 1;
+        LED <= (count == 4'b0000) ? ~LED : LED;
+    end    
 endmodule

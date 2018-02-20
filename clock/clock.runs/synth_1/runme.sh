@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log clock.vds -m64 -mode batch -messageDb vivado.pb -notrace -source clock.tcl
+EAStep vivado -log slow_clock.vds -m64 -mode batch -messageDb vivado.pb -notrace -source slow_clock.tcl

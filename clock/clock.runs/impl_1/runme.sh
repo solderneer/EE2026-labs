@@ -42,6 +42,6 @@ EAStep()
 
 # pre-commands:
 /bin/touch .init_design.begin.rst
-EAStep vivado -log clock.vdi -applog -m64 -messageDb vivado.pb -mode batch -source clock.tcl -notrace
+EAStep vivado -log slow_clock.vdi -applog -m64 -messageDb vivado.pb -mode batch -source slow_clock.tcl -notrace
 
 

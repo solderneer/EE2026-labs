@@ -26,15 +26,15 @@ module simulation(
     
     reg CLOCK;
     wire LED;
-    
-    clock dut(CLOCK, LED);
+
+    led_counter dut1(CLOCK,LED);
     
     initial begin
-        CLOCK = 0;
+        CLOCK = 1'b0;
     end
     
     always begin
-    CLOCK = ~CLOCK; #5;
+    #5; CLOCK = ~CLOCK;
     end
      
 endmodule

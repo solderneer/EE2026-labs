@@ -2,11 +2,11 @@
 # Vivado v2016.2 (64-bit)
 # SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
 # IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
-# Start of session at: Tue Feb 20 04:08:49 2018
-# Process ID: 1204
+# Start of session at: Tue Feb 20 04:59:20 2018
+# Process ID: 10724
 # Current directory: C:/Users/Auora/Documents/EE2026_labs/clock/clock.runs/impl_1
-# Command line: vivado.exe -log clock.vdi -applog -messageDb vivado.pb -mode batch -source clock.tcl -notrace
-# Log file: C:/Users/Auora/Documents/EE2026_labs/clock/clock.runs/impl_1/clock.vdi
+# Command line: vivado.exe -log slow_clock.vdi -applog -messageDb vivado.pb -mode batch -source slow_clock.tcl -notrace
+# Log file: C:/Users/Auora/Documents/EE2026_labs/clock/clock.runs/impl_1/slow_clock.vdi
 # Journal file: C:/Users/Auora/Documents/EE2026_labs/clock/clock.runs/impl_1\vivado.jou
 #-----------------------------------------------------------
-source clock.tcl -notrace
+source slow_clock.tcl -notrace
