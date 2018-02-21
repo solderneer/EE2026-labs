@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1519133906">
-  <File Type="OPT-DCP" Name="ledarray_counter_opt.dcp"/>
   <File Type="ROUTE-STATUS-PB" Name="ledarray_counter_route_status.pb"/>
   <File Type="PA-TCL" Name="ledarray_counter.tcl"/>
+  <File Type="OPT-DCP" Name="ledarray_counter_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="ledarray_counter_timing_summary_init.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="ledarray_counter_methodology_drc_opted.rpt"/>
   <File Type="RDI-RDI" Name="ledarray_counter.vdi"/>
   <File Type="PWROPT-DRC" Name="ledarray_counter_drc_pwropted.rpt"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="ledarray_counter_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="ledarray_counter_timing_summary_init.rpt"/>
   <File Type="OPT-DRC" Name="ledarray_counter_drc_opted.rpt"/>
   <File Type="PWROPT-DCP" Name="ledarray_counter_pwropt.dcp"/>
   <File Type="OPT-HWDEF" Name="ledarray_counter.hwdef"/>
@@ -31,8 +31,8 @@
   <File Type="ROUTE-DRC" Name="ledarray_counter_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="ledarray_counter_drc_routed.pb"/>
   <File Type="ROUTE-METHODOLOGY-DRC" Name="ledarray_counter_methodology_drc_routed.rpt"/>
-  <File Type="BG-BIT" Name="ledarray_counter.bit"/>
   <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="ledarray_counter_methodology_drc_routed.pb"/>
+  <File Type="BG-BIT" Name="ledarray_counter.bit"/>
   <File Type="ROUTE-PWR" Name="ledarray_counter_power_routed.rpt"/>
   <File Type="ROUTE-PWR-SUM" Name="ledarray_counter_power_summary_routed.pb"/>
   <File Type="ROUTE-PWR-RPX" Name="ledarray_counter_power_routed.rpx"/>
@@ -106,9 +106,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-      <Desc>Default settings for Implementation.</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
     <Step Id="init_design"/>
     <Step Id="opt_design"/>
     <Step Id="power_opt_design"/>
