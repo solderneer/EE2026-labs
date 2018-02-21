@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 20.02.2018 05:03:53
+// Create Date: 21.02.2018 03:06:23
 // Design Name: 
-// Module Name: ledarray_counter
+// Module Name: countup
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,17 +20,16 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module ledarray_counter(
-    input BUTTON,
-    input CLOCK,
-    output [7:0] LED_ARRAY
+module countup(
+    input PULSE,
+    output reg [7:0] COUNTUP
     );
     
-    wire SLOW_CLOCK;
-    wire PULSE;
+    initial begin
+        COUNTUP = 8'd0;
+    end
     
-    slow_clock count(CLOCK, SLOW_CLOCK);
-    debouncer d (BUTTON, SLOW_CLOCK, PULSE);
-    countup led_counter(PULSE, LED_ARRAY); 
-    
+    always @(posedge PULSE) begin
+        COUNTUP <= COUNTUP + 1;
+    end
 endmodule

@@ -25,6 +25,10 @@ module slow_clock(
     
     reg [23:0] count = 0;
     
+    initial begin
+        OUTPUT = 0;
+    end
+    
     always @(posedge CLOCK) begin
         count <= count + 1;
         OUTPUT <= (count == 0) ? ~OUTPUT : OUTPUT;
